@@ -1,9 +1,3 @@
-//
-//  main.m
-//  pre-jailbreak
-//
-//  Created by Quote on 2021/2/19.
-//
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
