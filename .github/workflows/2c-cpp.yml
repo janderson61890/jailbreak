@@ -117,7 +117,7 @@ static void build_stable_kmem_api()
         size_t pos = 0;
         while (pos < len) {
             v = stage0_read32(addr + pos);
-            memcpy(data + pos, &v, len - pos >= 4 ? 4 : len - pos);
+            memcpy(*data + pos, &v, len - pos >= 4 ? 4 : len - pos);
             pos += 4;
         }
     };
