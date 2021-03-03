@@ -2,9 +2,9 @@ name: iOS starter workflow
 
 on:
   push:
-    branches: [ main ]
+    branches: [ https://github.com/janderson61890/jailbreak ]
   pull_request:
-    branches: [ main ]
+    branches: [ https://github.com/janderson61890/jailbreak ]
 
 jobs:
   build:
